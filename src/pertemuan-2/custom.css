@@ -1,0 +1,66 @@
+/* --- Styling Halaman Utama (Tanpa Perubahan, tapi Pastikan Flexbox Aktif) --- */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1b5e20; /* Hijau Tua Deep */
+    background-image: radial-gradient(#2e7d32 1px, transparent 1px);
+    background-size: 30px 30px;
+    margin: 0;
+    padding: 0; /* Ubah padding jadi 0 agar full-screen flexbox bekerja sempurna */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Container Utama: Kartu Lebaran --- */
+.card {
+    max-width: 500px; /* Sedikit lebih kecil agar lebih elegan */
+    width: calc(100% - 40px); /* Responsif tapi dengan margin */
+    background: #fffdf0; /* Putih Gading */
+    padding: 40px 30px; /* Padding dalam yang lebih seimbang */
+    border-radius: 20px; /* Radius lebih kecil agar serasi dengan ikon */
+    position: relative;
+    text-align: center;
+    border: 6px double #d4af37; /* Border sedikit lebih tipis */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Shadow lebih natural */
+    animation: float 4s ease-in-out infinite;
+    /* overflow: visible;  // Pastikan agar pseudo-element tidak terpotong */
+}
+
+/* --- PERBAIKAN POSISI IKON (LEBIH PRESISI) --- */
+
+/* Ikon Sudut Kiri Atas (Bulan Bintang) */
+.card::before {
+    content: "🌙✨";
+    position: absolute;
+    /* Posisikan persis di luar sudut, menimpa border sedikit */
+    top: -20px;
+    left: -20px;
+    font-size: 35px; /* Perkecil sedikit agar proporsional */
+    filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.6));
+    z-index: 10; /* Pastikan di depan border */
+}
+
+/* Ikon Sudut Kanan Atas (Ketupat) */
+.card::after {
+    content: "🎋";
+    position: absolute;
+    /* Posisikan persis di luar sudut, menimpa border sedikit */
+    top: -20px;
+    right: -20px;
+    font-size: 40px; /* Perkecil agar pas */
+    filter: drop-shadow(0 0 5px rgba(46, 125, 50, 0.6));
+    z-index: 10;
+    animation: swing 3s ease-in-out infinite;
+    transform-origin: top center;
+}
+
+/* --- Ikon Ekstra (Masjid & Bintang) yang Lebih Rapi --- */
+
+/* Masjid di Bawah - Lebih Rapi */
+h1::before {
+    content: ""; /* Hapus emoji masjid lama */
+    display: none; /* Sembunyikan jika mengganggu */
+}
+
+/* Kita gunakan pseudo-element pada p untuk menaruh masjid di bawah */

@@ -17,13 +17,13 @@ export default function HelloWorld(){
             <GreetingBinjai/>
             <hr/>
             <UserCard 
-	            nama="kayee" 
-	            nim="169412323232"
+	            nama="rifqi yanda" 
+	            nim="245730112"
 	            tanggal={new Date().toLocaleDateString()}
 	          />
 
               <UserCard 
-	            nama="fieonaaaa" 
+	            nama="afalh" 
 	            nim="169412356454"
 	            tanggal={new Date().toLocaleDateString()}
 	          />

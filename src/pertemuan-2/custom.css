@@ -1,66 +1,83 @@
-/* --- Styling Halaman Utama (Tanpa Perubahan, tapi Pastikan Flexbox Aktif) --- */
+/* --- Styling Halaman Utama --- */
 body {
     font-family: 'Georgia', serif;
-    background-color: #1b5e20; /* Hijau Tua Deep */
-    background-image: radial-gradient(#2e7d32 1px, transparent 1px);
-    background-size: 30px 30px;
+    background: linear-gradient(135deg, #1b5e20, #2e7d32);
     margin: 0;
-    padding: 0; /* Ubah padding jadi 0 agar full-screen flexbox bekerja sempurna */
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-/* --- Container Utama: Kartu Lebaran --- */
+/* --- Container Utama --- */
 .card {
-    max-width: 500px; /* Sedikit lebih kecil agar lebih elegan */
-    width: calc(100% - 40px); /* Responsif tapi dengan margin */
-    background: #fffdf0; /* Putih Gading */
-    padding: 40px 30px; /* Padding dalam yang lebih seimbang */
-    border-radius: 20px; /* Radius lebih kecil agar serasi dengan ikon */
+    max-width: 500px;
+    width: calc(100% - 40px);
+    background: #fffdf7;
+    padding: 40px 30px;
+    border-radius: 18px;
     position: relative;
     text-align: center;
-    border: 6px double #d4af37; /* Border sedikit lebih tipis */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Shadow lebih natural */
-    animation: float 4s ease-in-out infinite;
-    /* overflow: visible;  // Pastikan agar pseudo-element tidak terpotong */
+    border: 4px solid #d4af37;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+    animation: float 5s ease-in-out infinite;
 }
 
-/* --- PERBAIKAN POSISI IKON (LEBIH PRESISI) --- */
-
-/* Ikon Sudut Kiri Atas (Bulan Bintang) */
+/* Dekorasi Sudut Kiri Atas */
 .card::before {
-    content: "🌙✨";
+    content: "";
     position: absolute;
-    /* Posisikan persis di luar sudut, menimpa border sedikit */
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg,#d4af37,#f5e6a6);
     top: -20px;
     left: -20px;
-    font-size: 35px; /* Perkecil sedikit agar proporsional */
-    filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.6));
-    z-index: 10; /* Pastikan di depan border */
+    border-radius: 50%;
+    opacity: 0.2;
 }
 
-/* Ikon Sudut Kanan Atas (Ketupat) */
+/* Dekorasi Sudut Kanan Atas */
 .card::after {
-    content: "🎋";
+    content: "";
     position: absolute;
-    /* Posisikan persis di luar sudut, menimpa border sedikit */
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(45deg,#2e7d32,#66bb6a);
     top: -20px;
     right: -20px;
-    font-size: 40px; /* Perkecil agar pas */
-    filter: drop-shadow(0 0 5px rgba(46, 125, 50, 0.6));
-    z-index: 10;
-    animation: swing 3s ease-in-out infinite;
-    transform-origin: top center;
+    border-radius: 50%;
+    opacity: 0.2;
 }
 
-/* --- Ikon Ekstra (Masjid & Bintang) yang Lebih Rapi --- */
-
-/* Masjid di Bawah - Lebih Rapi */
-h1::before {
-    content: ""; /* Hapus emoji masjid lama */
-    display: none; /* Sembunyikan jika mengganggu */
+/* Judul */
+h1 {
+    color: #1b5e20;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
-/* Kita gunakan pseudo-element pada p untuk menaruh masjid di bawah */
+/* Garis Elegan */
+h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #d4af37;
+    margin: 12px auto;
+    border-radius: 5px;
+}
+
+/* Isi Pesan */
+p {
+    color: #444;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Animasi Float */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0px); }
+}

@@ -24,11 +24,11 @@ export default function FrameworkListsearchFilterData() {
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 px-6 py-10">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 px-6 py-10">
 
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-slate-800 mb-3">
+        <h1 className="text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent mb-3">
           🚀 Framework Explorer
         </h1>
         <p className="text-slate-500 text-sm">
@@ -50,16 +50,18 @@ export default function FrameworkListsearchFilterData() {
           w-full 
           px-5 
           py-3 
-          rounded-xl 
+          rounded-2xl 
           border 
           border-slate-200 
-          bg-white/80
+          bg-white/70
           backdrop-blur
           focus:outline-none 
           focus:ring-2 
           focus:ring-indigo-400
           shadow-sm
-          transition
+          transition-all
+          duration-300
+          hover:shadow-md
           "
         />
 
@@ -71,16 +73,18 @@ export default function FrameworkListsearchFilterData() {
           w-full 
           px-5 
           py-3 
-          rounded-xl 
+          rounded-2xl 
           border 
           border-slate-200 
-          bg-white/80
+          bg-white/70
           backdrop-blur
           focus:outline-none 
           focus:ring-2 
           focus:ring-indigo-400
           shadow-sm
-          transition
+          transition-all
+          duration-300
+          hover:shadow-md
           "
         >
           <option value="">All Categories</option>
@@ -108,13 +112,15 @@ export default function FrameworkListsearchFilterData() {
             key={item.id}
             className="
             group
-            bg-white
+            bg-white/70
+            backdrop-blur
             rounded-2xl
             shadow-sm
-            hover:shadow-2xl
+            hover:shadow-xl
             transition-all
             duration-500
             hover:-translate-y-2
+            active:scale-[0.98]
             border border-slate-100
             overflow-hidden
             cursor-pointer
@@ -132,9 +138,8 @@ export default function FrameworkListsearchFilterData() {
                   h-44
                   object-cover
                   transition-transform
-                  duration-500
+                  duration-700
                   group-hover:scale-110
-                  group-active:scale-95
                   "
                 />
 
@@ -147,6 +152,7 @@ export default function FrameworkListsearchFilterData() {
                 opacity-0 
                 group-hover:opacity-100 
                 transition
+                duration-500
                 " />
               </div>
             )}
@@ -168,9 +174,9 @@ export default function FrameworkListsearchFilterData() {
 
 
               {/* Developer */}
-              <div className="text-sm text-slate-600 mb-3">
-                <span className="font-medium">👨‍💻 Developer:</span>{" "}
-                <span className="font-semibold text-slate-800">
+              <div className="text-sm text-slate-600 mb-3 flex items-center gap-2">
+                <span>👨‍💻</span>
+                <span className="font-medium">
                   {item.details?.developer}
                 </span>
               </div>
@@ -183,6 +189,9 @@ export default function FrameworkListsearchFilterData() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
+                  inline-flex
+                  items-center
+                  gap-1
                   text-sm 
                   text-indigo-600 
                   hover:text-indigo-800 
@@ -207,11 +216,12 @@ export default function FrameworkListsearchFilterData() {
                     text-xs 
                     rounded-full 
                     font-medium 
-                    transition 
+                    transition-all
+                    duration-300
                     cursor-pointer
                     ${
                       selectedTag === tag
-                        ? "bg-indigo-600 text-white"
+                        ? "bg-gradient-to-r from-indigo-500 to-purple-500 text-white shadow"
                         : "bg-slate-100 text-slate-600 hover:bg-indigo-100 hover:text-indigo-600"
                     }
                     `}
@@ -230,8 +240,8 @@ export default function FrameworkListsearchFilterData() {
 
       {/* Empty */}
       {filteredFrameworks.length === 0 && (
-        <div className="text-center py-20">
-          <div className="text-5xl mb-4">🔍</div>
+        <div className="text-center py-24">
+          <div className="text-6xl mb-4 animate-bounce">🔍</div>
           <p className="text-lg text-slate-400 italic">
             No framework found
           </p>

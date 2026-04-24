@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "name": "Cloud Migration Services",
+    "category": "Cloud Computing",
+    "price": 2500,
+    "duration": "4 weeks",
+    "rating": 4.8,
+    "description": "Comprehensive cloud migration strategy and execution for businesses of all sizes.",
+    "details": {
+      "provider": "CloudTech Solutions",
+      "supportLevel": "24/7 Premium Support",
+      "certifications": ["AWS Certified", "Azure Expert", "Google Cloud Partner"]
+    },
+    "features": ["Data Backup", "Security Compliance", "Automated Deployment"],
+    "image": "https://picsum.photos/id/1/400/300",
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "name": "Cybersecurity Audit",
+    "category": "Security",
+    "price": 1800,
+    "duration": "2 weeks",
+    "rating": 4.9,
+    "description": "Complete security assessment and vulnerability testing for your infrastructure.",
+    "details": {
+      "provider": "SecureNet Inc",
+      "supportLevel": "Business Hours",
+      "certifications": ["ISO 27001", "CISSP Certified"]
+    },
+    "features": ["Penetration Testing", "Risk Assessment", "Compliance Check"],
+    "image": "https://picsum.photos/id/2/400/300",
+    "isActive": true
+  },
+  {
+    "id": 3,
+    "name": "AI Consulting Services",
+    "category": "Artificial Intelligence",
+    "price": 3500,
+    "duration": "6 weeks",
+    "rating": 4.7,
+    "description": "Strategic AI implementation and machine learning solutions for business growth.",
+    "details": {
+      "provider": "AIDriven Labs",
+      "supportLevel": "24/7 Priority Support",
+      "certifications": ["AI Specialist", "ML Engineer Certified"]
+    },
+    "features": ["Data Analytics", "Model Training", "API Integration"],
+    "image": "https://picsum.photos/id/3/400/300",
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "name": "Mobile App Development",
+    "category": "Development",
+    "price": 5000,
+    "duration": "8 weeks",
+    "rating": 4.9,
+    "description": "Cross-platform mobile application development for iOS and Android.",
+    "details": {
+      "provider": "AppCraft Studio",
+      "supportLevel": "24/7 Support",
+      "certifications": ["React Native Expert", "Flutter Certified"]
+    },
+    "features": ["UI/UX Design", "App Store Deployment", "Maintenance"],
+    "image": "https://picsum.photos/id/4/400/300",
+    "isActive": true
+  },
+  {
+    "id": 5,
+    "name": "Data Analytics Dashboard",
+    "category": "Data Science",
+    "price": 2200,
+    "duration": "3 weeks",
+    "rating": 4.6,
+    "description": "Interactive dashboards and business intelligence solutions.",
+    "details": {
+      "provider": "DataVision Corp",
+      "supportLevel": "Business Hours",
+      "certifications": ["Tableau Expert", "Power BI Certified"]
+    },
+    "features": ["Real-time Analytics", "Custom Reports", "Data Visualization"],
+    "image": "https://picsum.photos/id/5/400/300",
+    "isActive": true
+  },
+  {
+    "id": 6,
+    "name": "DevOps Automation",
+    "category": "DevOps",
+    "price": 2800,
+    "duration": "4 weeks",
+    "rating": 4.8,
+    "description": "CI/CD pipeline setup and infrastructure automation services.",
+    "details": {
+      "provider": "DevOps Masters",
+      "supportLevel": "24/7 Support",
+      "certifications": ["Kubernetes Certified", "Jenkins Expert"]
+    },
+    "features": ["CI/CD Pipeline", "Container Orchestration", "Monitoring"],
+    "image": "https://picsum.photos/id/6/400/300",
+    "isActive": true
+  },
+  {
+    "id": 7,
+    "name": "E-commerce Solution",
+    "category": "Web Development",
+    "price": 4200,
+    "duration": "6 weeks",
+    "rating": 4.7,
+    "description": "Complete e-commerce platform with payment integration and inventory management.",
+    "details": {
+      "provider": "EcomExperts",
+      "supportLevel": "Premium Support",
+      "certifications": ["Shopify Expert", "WooCommerce Specialist"]
+    },
+    "features": ["Payment Gateway", "Inventory System", "SEO Optimized"],
+    "image": "https://picsum.photos/id/7/400/300",
+    "isActive": true
+  },
+  {
+    "id": 8,
+    "name": "IT Infrastructure Setup",
+    "category": "Infrastructure",
+    "price": 3800,
+    "duration": "5 weeks",
+    "rating": 4.8,
+    "description": "Complete IT infrastructure setup including servers, networks, and security.",
+    "details": {
+      "provider": "InfraBuild Pro",
+      "supportLevel": "24/7 Enterprise Support",
+      "certifications": ["Cisco Certified", "Microsoft Partner"]
+    },
+    "features": ["Network Design", "Server Configuration", "Security Setup"],
+    "image": "https://picsum.photos/id/8/400/300",
+    "isActive": true
+  },
+  {
+    "id": 9,
+    "name": "Digital Marketing Package",
+    "category": "Marketing",
+    "price": 1500,
+    "duration": "1 month",
+    "rating": 4.5,
+    "description": "Comprehensive digital marketing strategy including SEO and social media.",
+    "details": {
+      "provider": "MarketGuru",
+      "supportLevel": "Business Hours",
+      "certifications": ["Google Ads Certified", "Facebook Blueprint"]
+    },
+    "features": ["SEO Optimization", "Social Media Management", "Email Marketing"],
+    "image": "https://picsum.photos/id/9/400/300",
+    "isActive": true
+  },
+  {
+    "id": 10,
+    "name": "Blockchain Development",
+    "category": "Blockchain",
+    "price": 6000,
+    "duration": "8 weeks",
+    "rating": 4.9,
+    "description": "Smart contract development and blockchain integration services.",
+    "details": {
+      "provider": "BlockChain Labs",
+      "supportLevel": "24/7 Technical Support",
+      "certifications": ["Ethereum Certified", "Solidity Expert"]
+    },
+    "features": ["Smart Contracts", "DApp Development", "Wallet Integration"],
+    "image": "https://picsum.photos/id/10/400/300",
+    "isActive": true
+  },
+  {
+    "id": 11,
+    "name": "UI/UX Design Services",
+    "category": "Design",
+    "price": 2000,
+    "duration": "3 weeks",
+    "rating": 4.8,
+    "description": "Professional UI/UX design for web and mobile applications.",
+    "details": {
+      "provider": "DesignHub Creative",
+      "supportLevel": "Revision Support",
+      "certifications": ["Adobe Certified", "Figma Expert"]
+    },
+    "features": ["Wireframing", "Prototyping", "User Testing"],
+    "image": "https://picsum.photos/id/11/400/300",
+    "isActive": true
+  },
+  {
+    "id": 12,
+    "name": "Cloud Storage Solution",
+    "category": "Cloud Computing",
+    "price": 1200,
+    "duration": "2 weeks",
+    "rating": 4.6,
+    "description": "Scalable cloud storage setup with automatic backup and recovery.",
+    "details": {
+      "provider": "CloudSafe",
+      "supportLevel": "Standard Support",
+      "certifications": ["AWS Storage Specialist"]
+    },
+    "features": ["Auto Backup", "File Sync", "Data Encryption"],
+    "image": "https://picsum.photos/id/12/400/300",
+    "isActive": true
+  },
+  {
+    "id": 13,
+    "name": "API Development",
+    "category": "Development",
+    "price": 2400,
+    "duration": "3 weeks",
+    "rating": 4.7,
+    "description": "Custom RESTful and GraphQL API development services.",
+    "details": {
+      "provider": "APIMasters",
+      "supportLevel": "Technical Support",
+      "certifications": ["GraphQL Certified", "REST API Expert"]
+    },
+    "features": ["API Documentation", "Authentication", "Rate Limiting"],
+    "image": "https://picsum.photos/id/13/400/300",
+    "isActive": true
+  },
+  {
+    "id": 14,
+    "name": "IT Training Programs",
+    "category": "Education",
+    "price": 800,
+    "duration": "2 weeks",
+    "rating": 4.9,
+    "description": "Professional IT certification training and workshops.",
+    "details": {
+      "provider": "EduTech Institute",
+      "supportLevel": "Mentor Support",
+      "certifications": ["Certified Trainer", "Industry Partner"]
+    },
+    "features": ["Live Sessions", "Practical Labs", "Certification Prep"],
+    "image": "https://picsum.photos/id/14/400/300",
+    "isActive": true
+  },
+  {
+    "id": 15,
+    "name": "Database Optimization",
+    "category": "Database",
+    "price": 1600,
+    "duration": "2 weeks",
+    "rating": 4.7,
+    "description": "Database performance tuning and optimization services.",
+    "details": {
+      "provider": "DBExperts",
+      "supportLevel": "24/7 Support",
+      "certifications": ["Oracle Certified", "MySQL Expert"]
+    },
+    "features": ["Query Optimization", "Indexing", "Performance Monitoring"],
+    "image": "https://picsum.photos/id/15/400/300",
+    "isActive": true
+  },
+  {
+    "id": 16,
+    "name": "Chatbot Development",
+    "category": "AI",
+    "price": 2800,
+    "duration": "4 weeks",
+    "rating": 4.8,
+    "description": "AI-powered chatbot development for customer service automation.",
+    "details": {
+      "provider": "BotCraft AI",
+      "supportLevel": "Premium Support",
+      "certifications": ["Dialogflow Expert", "Rasa Developer"]
+    },
+    "features": ["NLP Integration", "Multi-platform", "Analytics Dashboard"],
+    "image": "https://picsum.photos/id/16/400/300",
+    "isActive": true
+  },
+  {
+    "id": 17,
+    "name": "Server Maintenance",
+    "category": "Infrastructure",
+    "price": 1000,
+    "duration": "Monthly",
+    "rating": 4.6,
+    "description": "Regular server maintenance and security patching services.",
+    "details": {
+      "provider": "ServerCare",
+      "supportLevel": "24/7 Monitoring",
+      "certifications": ["Linux Certified", "Windows Server Expert"]
+    },
+    "features": ["Security Patching", "Performance Monitoring", "Backup Management"],
+    "image": "https://picsum.photos/id/17/400/300",
+    "isActive": true
+  },
+  {
+    "id": 18,
+    "name": "Voice Recognition System",
+    "category": "AI",
+    "price": 4500,
+    "duration": "6 weeks",
+    "rating": 4.9,
+    "description": "Custom voice recognition and speech-to-text solutions.",
+    "details": {
+      "provider": "VoiceTech",
+      "supportLevel": "Technical Support",
+      "certifications": ["Speech Recognition Specialist"]
+    },
+    "features": ["Multi-language", "Real-time Processing", "Custom Commands"],
+    "image": "https://picsum.photos/id/18/400/300",
+    "isActive": true
+  },
+  {
+    "id": 19,
+    "name": "CRM Implementation",
+    "category": "Business",
+    "price": 3500,
+    "duration": "5 weeks",
+    "rating": 4.7,
+    "description": "Custom CRM system setup and integration with existing tools.",
+    "details": {
+      "provider": "CRMSolutions",
+      "supportLevel": "Business Hours",
+      "certifications": ["Salesforce Certified", "HubSpot Partner"]
+    },
+    "features": ["Lead Management", "Analytics", "Email Integration"],
+    "image": "https://picsum.photos/id/19/400/300",
+    "isActive": true
+  },
+  {
+    "id": 20,
+    "name": "IoT Platform Development",
+    "category": "IoT",
+    "price": 5500,
+    "duration": "8 weeks",
+    "rating": 4.8,
+    "description": "Internet of Things platform with device management and data analytics.",
+    "details": {
+      "provider": "IoTech Solutions",
+      "supportLevel": "24/7 Support",
+      "certifications": ["AWS IoT Certified", "Azure IoT Expert"]
+    },
+    "features": ["Device Management", "Real-time Analytics", "Alert System"],
+    "image": "https://picsum.photos/id/20/400/300",
+    "isActive": true
+  }
+]

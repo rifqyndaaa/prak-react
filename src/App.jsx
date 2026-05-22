@@ -12,7 +12,7 @@ const Orders = React.lazy(() => import("./pages/Orders"));
 const Customers = React.lazy(() => import("./pages/Customer"));
 const Products = React.lazy(() => import("./pages/Products"));
 
-const Login = React.lazy(() => import("./pages/auth/Login"));
+const Login = React.lazy(() => import("./pages/auth/login"));
 const Register = React.lazy(() => import("./pages/auth/Register"));
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));

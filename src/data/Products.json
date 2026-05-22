@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Smartphone X1",
+    "code": "SPX1-001",
+    "category": "Electronics",
+    "brand": "TechNova",
+    "price": 3500000,
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "title": "Laptop Pro 14",
+    "code": "LP14-002",
+    "category": "Electronics",
+    "brand": "CompCore",
+    "price": 12500000,
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "title": "Wireless Headset H10",
+    "code": "WH10-003",
+    "category": "Accessories",
+    "brand": "SoundMax",
+    "price": 450000,
+    "stock": 40
+  },
+  {
+    "id": 4,
+    "title": "Gaming Mouse G5",
+    "code": "GMG5-004",
+    "category": "Accessories",
+    "brand": "ClickPro",
+    "price": 250000,
+    "stock": 60
+  },
+  {
+    "id": 5,
+    "title": "Mechanical Keyboard K8",
+    "code": "MK8-005",
+    "category": "Accessories",
+    "brand": "KeyMaster",
+    "price": 750000,
+    "stock": 30
+  },
+  {
+    "id": 6,
+    "title": "Smartwatch S2",
+    "code": "SW2-006",
+    "category": "Wearables",
+    "brand": "TechNova",
+    "price": 1800000,
+    "stock": 20
+  },
+  {
+    "id": 7,
+    "title": "Tablet T10",
+    "code": "TB10-007",
+    "category": "Electronics",
+    "brand": "CompCore",
+    "price": 4200000,
+    "stock": 15
+  },
+  {
+    "id": 8,
+    "title": "Bluetooth Speaker B3",
+    "code": "BS3-008",
+    "category": "Audio",
+    "brand": "SoundMax",
+    "price": 300000,
+    "stock": 50
+  },
+  {
+    "id": 9,
+    "title": "Monitor 24 Inch",
+    "code": "MN24-009",
+    "category": "Electronics",
+    "brand": "ViewPlus",
+    "price": 2100000,
+    "stock": 18
+  },
+  {
+    "id": 10,
+    "title": "External SSD 1TB",
+    "code": "SSD1T-010",
+    "category": "Storage",
+    "brand": "DataSpeed",
+    "price": 1600000,
+    "stock": 22
+  },
+  {
+    "id": 11,
+    "title": "USB Flash Drive 64GB",
+    "code": "USB64-011",
+    "category": "Storage",
+    "brand": "DataSpeed",
+    "price": 120000,
+    "stock": 100
+  },
+  {
+    "id": 12,
+    "title": "Router WiFi AX1800",
+    "code": "RAX18-012",
+    "category": "Networking",
+    "brand": "NetLink",
+    "price": 850000,
+    "stock": 35
+  },
+  {
+    "id": 13,
+    "title": "Power Bank 20.000mAh",
+    "code": "PB20-013",
+    "category": "Accessories",
+    "brand": "ChargeIt",
+    "price": 400000,
+    "stock": 55
+  },
+  {
+    "id": 14,
+    "title": "Action Camera 4K",
+    "code": "AC4K-014",
+    "category": "Camera",
+    "brand": "VisionPro",
+    "price": 3200000,
+    "stock": 12
+  },
+  {
+    "id": 15,
+    "title": "Digital Camera DLSR X",
+    "code": "DCX-015",
+    "category": "Camera",
+    "brand": "VisionPro",
+    "price": 7800000,
+    "stock": 8
+  },
+  {
+    "id": 16,
+    "title": "Smart TV 43 Inch",
+    "code": "TV43-016",
+    "category": "Electronics",
+    "brand": "ViewPlus",
+    "price": 5200000,
+    "stock": 14
+  },
+  {
+    "id": 17,
+    "title": "Air Conditioner 1PK",
+    "code": "AC1P-017",
+    "category": "Home Appliance",
+    "brand": "CoolHome",
+    "price": 3500000,
+    "stock": 9
+  },
+  {
+    "id": 18,
+    "title": "Refrigerator 2 Door",
+    "code": "RF2D-018",
+    "category": "Home Appliance",
+    "brand": "CoolHome",
+    "price": 4800000,
+    "stock": 11
+  },
+  {
+    "id": 19,
+    "title": "Rice Cooker Smart",
+    "code": "RC-S-019",
+    "category": "Home Appliance",
+    "brand": "KitchenPro",
+    "price": 600000,
+    "stock": 45
+  },
+  {
+    "id": 20,
+    "title": "Electric Kettle",
+    "code": "EK-020",
+    "category": "Home Appliance",
+    "brand": "KitchenPro",
+    "price": 250000,
+    "stock": 70
+  },
+  {
+    "id": 21,
+    "title": "Gaming Chair Pro",
+    "code": "GC-P-021",
+    "category": "Furniture",
+    "brand": "ComfortSeat",
+    "price": 1500000,
+    "stock": 16
+  },
+  {
+    "id": 22,
+    "title": "Office Desk Minimal",
+    "code": "OD-M-022",
+    "category": "Furniture",
+    "brand": "ComfortSeat",
+    "price": 1200000,
+    "stock": 20
+  },
+  {
+    "id": 23,
+    "title": "LED Desk Lamp",
+    "code": "LDL-023",
+    "category": "Lighting",
+    "brand": "BrightHome",
+    "price": 180000,
+    "stock": 80
+  },
+  {
+    "id": 24,
+    "title": "Smart Bulb RGB",
+    "code": "SB-RGB-024",
+    "category": "Lighting",
+    "brand": "BrightHome",
+    "price": 120000,
+    "stock": 120
+  },
+  {
+    "id": 25,
+    "title": "Vacuum Cleaner V2",
+    "code": "VC2-025",
+    "category": "Home Appliance",
+    "brand": "CleanMax",
+    "price": 2100000,
+    "stock": 13
+  },
+  {
+    "id": 26,
+    "title": "Blender High Speed",
+    "code": "BLH-026",
+    "category": "Kitchen",
+    "brand": "KitchenPro",
+    "price": 850000,
+    "stock": 27
+  },
+  {
+    "id": 27,
+    "title": "Coffee Maker Auto",
+    "code": "CM-A-027",
+    "category": "Kitchen",
+    "brand": "KitchenPro",
+    "price": 950000,
+    "stock": 24
+  },
+  {
+    "id": 28,
+    "title": "Sneakers RunFast",
+    "code": "SRF-028",
+    "category": "Fashion",
+    "brand": "StepUp",
+    "price": 650000,
+    "stock": 38
+  },
+  {
+    "id": 29,
+    "title": "Jacket Windbreaker",
+    "code": "JW-029",
+    "category": "Fashion",
+    "brand": "UrbanWear",
+    "price": 550000,
+    "stock": 42
+  },
+  {
+    "id": 30,
+    "title": "Backpack Travel 40L",
+    "code": "BP40-030",
+    "category": "Fashion",
+    "brand": "TravelGo",
+    "price": 700000,
+    "stock": 33
+  }
+]

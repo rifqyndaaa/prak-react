@@ -6,17 +6,27 @@ import {
 } from "react-icons/md";
 
 const menuItems = [
-  { group: "MAIN MENU", items: [
-    { icon: MdDashboard, label: "Dashboard", path: "/" },
-    { icon: MdShoppingCart, label: "Order List", path: "/orders" },
-    { icon: MdPeople, label: "Customers", path: "/customers" },
-    { icon: MdSettings, label: "Products", path: "/products" },
-  ]},
-  { group: "ERROR PAGES", items: [
-    { icon: MdErrorOutline, label: "Error 400", path: "/error-400" },
-    { icon: MdWarning, label: "Error 401", path: "/error-401" },
-    { icon: MdErrorOutline, label: "Error 403", path: "/error-403" },
-  ]}
+  {
+    group: "MAIN MENU",
+    items: [
+      { icon: MdDashboard, label: "Dashboard", path: "/" },
+      { icon: MdShoppingCart, label: "Order List", path: "/orders" },
+      { icon: MdPeople, label: "Customers", path: "/customers" },
+      { icon: MdSettings, label: "Products", path: "/products" },
+
+      // TAMBAH INI
+      { icon: MdSettings, label: "Components", path: "/components" },
+    ]
+  },
+
+  {
+    group: "ERROR PAGES",
+    items: [
+      { icon: MdErrorOutline, label: "Error 400", path: "/error-400" },
+      { icon: MdWarning, label: "Error 401", path: "/error-401" },
+      { icon: MdErrorOutline, label: "Error 403", path: "/error-403" },
+    ]
+  }
 ];
 
 export default function Sidebar() {

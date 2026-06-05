@@ -41,7 +41,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/components" element={<Components />} />
           <Route path="/products/:id" element={<ProductDetail />} /> 
-          <Route path="/fiturxyz" element={<FiturXYZ />} />
+          <Route path="/FiturXYZ" element={<FiturXYZ />} />
 
           <Route path="/error-400" element={<Error400 />} />
           <Route path="/error-401" element={<Error401 />} />

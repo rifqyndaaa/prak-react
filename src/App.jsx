@@ -6,7 +6,6 @@ import AuthLayout from "./layouts/AuthLayout";
 import ErrorPage from "./components/ErrorPage";
 import Loading from "./components/Loading";
 
-
 // 🔥 LAZY LOAD PAGES
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Orders = React.lazy(() => import("./pages/Orders"));
@@ -20,19 +19,16 @@ const Register = React.lazy(() => import("./pages/auth/Register"));
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
 
-
 // 🔥 ERROR PAGES
 const Error400 = () => <ErrorPage code="400" description="Bad Request" />;
 const Error401 = () => <ErrorPage code="401" description="Unauthorized" />;
 const Error403 = () => <ErrorPage code="403" description="Forbidden" />;
 const NotFound = () => <ErrorPage code="404" description="Page Not Found" />;
 
-
 function App() {
   return (
     <Suspense fallback={<Loading />}>
       <Routes>
-
         {/* MAIN LAYOUT */}
         <Route element={<MainLayout />}>
           <Route path="/" element={<Dashboard />} />
@@ -56,7 +52,6 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/forgot" element={<Forgot />} />
         </Route>
-
       </Routes>
     </Suspense>
   );

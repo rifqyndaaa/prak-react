@@ -13,6 +13,10 @@ const menuItems = [
       { icon: MdShoppingCart, label: "Order List", path: "/orders" },
       { icon: MdPeople, label: "Customers", path: "/customers" },
       { icon: MdSettings, label: "Products", path: "/products" },
+      { icon: MdSettings, label: "Categories", path: "/categories" },
+      { icon: MdSettings, label: "Fitur XYZ", path: "/fiturxyz" },
+
+    
 
       // TAMBAH INI
       { icon: MdSettings, label: "Components", path: "/components" },
@@ -103,3 +107,6 @@ export default function Sidebar() {
     </aside>
   );
 }
+
+
+

@@ -15,6 +15,7 @@ const menuItems = [
       { icon: MdSettings, label: "Products", path: "/products" },
       { icon: MdSettings, label: "Categories", path: "/categories" },
       { icon: MdSettings, label: "Fitur XYZ", path: "/FiturXYZ" },
+      { icon: MdSettings, label: "None", path: "/none" },
 
     
 
